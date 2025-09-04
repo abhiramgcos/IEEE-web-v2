@@ -2,6 +2,11 @@
 
 A modern, responsive website for IEEE Student Branch PRC built with Next.js 15, featuring animated sections, interactive carousels, and a retro-inspired design.
 
+## 🌐 Live Demo
+
+Check out the live website: **[https://ieee.cos777nnn777.win/](https://ieee.cos777nnn777.win/)**
+
+
 ## 🚀 Features
 
 - **Modern Design**: Clean, pixel-perfect UI with retro aesthetics
@@ -76,9 +81,6 @@ A modern, responsive website for IEEE Student Branch PRC built with Next.js 15, 
 4. **Open your browser**
    Navigate to [http://localhost:9002](http://localhost:9002)
 
-## 🌐 Live Demo
-
-Check out the live website: **[https://ieee.cos777nnn777.win/](https://ieee.cos777nnn777.win/)**
 
 ### Build for Production
 
