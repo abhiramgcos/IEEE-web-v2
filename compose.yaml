@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  nextjs-app:
+    # This tells Docker to build an image from the Dockerfile
+    # in the current directory ('.')
+    build: .
+    container_name: my-full-nextjs-app
+    ports:
+      # You can change the host port (9096) to any other unused port
+      - 9096:3000 
+    restart: unless-stopped

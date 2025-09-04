@@ -1,0 +1,118 @@
+/* Loader Container Styles */
+.loader-container {
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Tetris-style Loader */
+.tetris-loader {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  background-color: #008080; /* Teal color */
+  position: absolute;
+  top: -30px;
+  animation: fall 1.2s infinite ease-in-out;
+}
+
+.block1 {
+  left: 0;
+  animation-delay: 0s;
+}
+
+.block2 {
+  left: 25px;
+  animation-delay: 0.2s;
+}
+
+.block3 {
+  left: 50px;
+  animation-delay: 0.4s;
+}
+
+.block4 {
+  left: 37.5px; /* Centered block */
+  animation-delay: 0.6s;
+}
+
+@keyframes fall {
+  0% {
+    top: -30px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    top: 80px;
+    opacity: 1;
+  }
+  100% {
+    top: 100px;
+    opacity: 0;
+  }
+}
+
+/* Retro Background Shapes */
+.retro-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  font-size: 18px; /* Larger icons */
+  color: #008080;  /* Teal */
+  opacity: 0.6;
+  animation: float 6s infinite ease-in-out;
+  font-family: 'Courier New', monospace;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); opacity: 0.5; }
+  50% { transform: translateY(-10px); opacity: 1; }
+  100% { transform: translateY(0px); opacity: 0.5; }
+}
+
+/* Loading Timer Styles */
+.loading-timer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #008080;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  z-index: 2;
+  text-align: center;
+}
+
+.loading-progress {
+  width: 200px;
+  height: 4px;
+  background-color: rgba(0, 128, 128, 0.3);
+  border-radius: 2px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.loading-progress-bar {
+  height: 100%;
+  background-color: #008080;
+  border-radius: 2px;
+  transition: width 0.1s ease-out;
+} 
