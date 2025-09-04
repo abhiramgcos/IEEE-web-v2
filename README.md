@@ -76,6 +76,10 @@ A modern, responsive website for IEEE Student Branch PRC built with Next.js 15, 
 4. **Open your browser**
    Navigate to [http://localhost:9002](http://localhost:9002)
 
+## 🌐 Live Demo
+
+Check out the live website: **[https://ieee.cos777nnn777.win/](https://ieee.cos777nnn777.win/)**
+
 ### Build for Production
 
 ```bash
@@ -193,15 +197,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Team
 
 - **IEEE Student Branch PRC** - Development Team
+- **cos777** - Contributor & Developer
 - **Design**: Custom retro-inspired design system
 - **Development**: Next.js 15 with TypeScript
 
 ## 📞 Contact
 
-- **Website**: [Your Website URL]
+- **Live Demo**: [https://ieee.cos777nnn777.win/](https://ieee.cos777nnn777.win/)
+- **GitHub**: [cos777](https://github.com/cos777)
 - **Email**: [Your Email]
 - **LinkedIn**: [Your LinkedIn]
-- **GitHub**: [Your GitHub]
 
 ## 🙏 Acknowledgments
 
