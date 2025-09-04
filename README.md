@@ -60,7 +60,7 @@ Check out the live website: **[https://ieee.cos777nnn777.win/](https://ieee.cos7
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/abhiramgcos/IEEE-web-v2
    cd amith-ieee-exact-nextjs-v3
    ```
 
@@ -200,15 +200,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **IEEE Student Branch PRC** - Development Team
 - **cos777** - Contributor & Developer
-- **Design**: Custom retro-inspired design system
-- **Development**: Next.js 15 with TypeScript
+- **TKV** - Contributor & Developer
+- **Artysanta** - Custom retro-inspired design system
+- **IEEE Design Lead**  - design improvement and retouch
 
 ## 📞 Contact
 
 - **Live Demo**: [https://ieee.cos777nnn777.win/](https://ieee.cos777nnn777.win/)
 - **GitHub**: [cos777](https://github.com/cos777)
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn]
 
 ## 🙏 Acknowledgments
 
